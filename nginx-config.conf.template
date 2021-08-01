@@ -1,0 +1,9 @@
+server {
+    location /assets {
+        root /data/www;
+    }
+
+    location / {
+        root /data/www;
+    }
+}
